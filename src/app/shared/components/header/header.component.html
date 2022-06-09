@@ -1,0 +1,57 @@
+<div class="hero">
+
+    <body>
+        
+        <nav (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'nofixed'">
+
+            <div class="maintoptwo">
+                <div class="toptwo">
+                    <button mat-icon-button (click)="toggleSideBar()">
+                        <span class="material-icons">home</span>
+                    </button>
+                </div>
+        
+                <div class="toptwo">
+                    <a routerLink=""><label class="logo">
+                        <img src="assets/images/taglogo.png" alt="">
+                    </label></a>
+                </div>
+            </div>
+           
+           
+            <!-- <span type="button" class="hmb"> -->
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i >
+                      <img src="assets/images/hamburger.jpg" alt="" width="40" >
+                    </i>
+                       
+                    <!-- <img src="assets/images/hamburger.jpg" alt="" width="40"> -->
+                </label>
+            <!-- </span> -->
+    
+          
+    
+           
+             
+                <ul>
+                <!-- <li ><a class="nav-link" routerLink="">Home</a></li>
+                <li ><a class="nav-link" routerLink="/about-us">About Us</a></li>
+                <li ><a class="nav-link" routerLink="/our-services">Services</a></li>
+                <li ><a class="nav-link" routerLink="/blog">NewsFeed</a></li> -->
+                <!-- <li ><a class="nav-link" href="">Contact Us</a></li> -->
+                <!-- <li ><a class="nav-link" routerLink="/netgate">NetGate</a></li> -->
+                <li><a><button id="brr">Logout</button></a></li>
+            </ul>
+    
+        </nav>
+    
+    </body>
+    
+
+    
+
+</div>
+
+
+
